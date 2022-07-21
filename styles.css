@@ -1,0 +1,80 @@
+* {
+  font-family:Arial;
+  padding:0.5;
+  }
+
+html {
+    background-color:#2E4052;
+    color:#FFC857;
+}
+
+.nav-bar {
+  background-color:black;
+  background-image: linear-gradient(55deg,darkblue,#E5323B);
+  width:100%;
+  font-family:fantasy, sans-serif;
+  font-size:1.5em;
+  position:fixed;;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  word-spacing:4em;
+  cursor:pointer;
+  min-height:5vh;
+  top:0;
+}
+
+ a:hover{
+   background-color:black;
+   font-weight:bold;
+   }
+   a:visited {
+     color:white;
+   }
+
+h1 {
+  font-size:2em;
+}
+
+.main {
+  text-align:center;
+  margin: 500 10 10 10;
+  min-height:100vh;
+}
+img {
+  height:500px;
+  width:700px;
+}
+
+.project-tile {
+  font-size:2em;
+  font-weight:900;
+  text-align:left;
+}
+
+#Contact {
+  font-size:1.5em;
+}
+
+
+.projects-list {
+  display: grid;
+  row-gap: 3rem;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .image-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+@media only screen and (max-width: 600px) {
+  .text-with-images {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width:550px){
+  .title1 {
+    font-size:7rem;
+  }}
